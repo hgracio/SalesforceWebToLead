@@ -6,6 +6,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+
 </head>
 
 <h1> Bedrock Financials Site</h1> 
@@ -20,7 +22,7 @@
     
         <input type=hidden name="oid" value="00DVW000002fab4">
         <input type=hidden name="retURL" value="http://">
-        
+        <input type=hidden name='captcha_settings' value='{"keyname":"GitHub","fallback":"true","orgId":"00DVW000002fab4","ts":""}'>
     
         
         <label for="first_name">First Name</label><input  id="first_name"  name="first_name" size="20" type="text" />
@@ -45,6 +47,8 @@
         
         X Profile:<input  id="00NVW00000UIL9Z"  name="00NVW00000UIL9Z" size="20" type="text" />
         
+        <div class="g-recaptcha" data-sitekey="6LdktwcrAAAAABU4V2X1fEbwk2Jjl514y_YZVWMj"></div><br>
+
         <input type="submit" name="submit">
     
     </form>
